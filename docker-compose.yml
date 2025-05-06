@@ -89,18 +89,18 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.9
-  jupyter:
-   build: ./python
-   restart: always
-   ports:
-     - "8200:8888"
-   entrypoint:
-     jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
-   volumes: 
-     - ./python:/user/app
-   networks:
-     net_pet:
-       ipv4_address: 172.27.1.12
+#  jupyter:
+#   build: ./python
+#   restart: always
+#   ports:
+#     - "8200:8888"
+#   entrypoint:
+#     jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+#   volumes: 
+#     - ./python:/user/app
+#   networks:
+#     net_pet:
+#       ipv4_address: 172.27.1.12
         
   spark-master:
    image: bde2020/spark-master:2.4.0-hadoop2.7
