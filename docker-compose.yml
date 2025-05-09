@@ -136,7 +136,7 @@ services:
        ipv4_address: 172.27.1.11
 
   sqoop:
-    image: bde2020/sqoop:latest
+    image: harisekhon/sqoop
     container_name: sqoop
     depends_on:
       - hive-server
@@ -144,8 +144,6 @@ services:
       - datanode
     environment:
       - CONNECTOR_JDBC=mysql
-    volumes:
-      - ./data:/data
     networks:
       net_pet:
         ipv4_address: 172.27.1.13
