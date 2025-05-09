@@ -134,7 +134,7 @@ services:
         ipv4_address: 172.27.1.11
 
   sqoop:
-    image: harisekhon/sqoop
+    image: sequenceiq/sqoop:1.4.6
     container_name: sqoop
     depends_on:
       - hive-server
