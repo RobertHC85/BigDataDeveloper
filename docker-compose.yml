@@ -147,7 +147,8 @@ services:
     volumes:
       - ./data:/data
     networks:
-      - bigdata
+      net_pet:
+        ipv4_address: 172.27.1.13
  
 networks:
   net_pet:
