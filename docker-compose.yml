@@ -1,4 +1,4 @@
-version: '3' 
+version: '3'
 services:
 
   namenode:
@@ -15,7 +15,7 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.5
-  
+
   datanode:
     build: ./datanode/
     container_name: datanode
@@ -25,7 +25,6 @@ services:
       - ./datanode:/datanode
     env_file:
       - ./hadoop-hive.env
-    #command: sh -c "cp -R /datanode/sqoop/ /usr/local/"
     environment:
       SERVICE_PRECONDITION: "namenode:50070"
     depends_on:
@@ -44,9 +43,9 @@ services:
       - MYSQL_DATABASE=retail_db
     ports:
       - '3310:3306'
-    volumes: 
+    volumes:
       - ./mysqldata:/mysql/data
-    env_file: 
+    env_file:
       - ./mysql/variables.env
 
   hive-server:
@@ -64,7 +63,7 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.7
-  
+
   hive-metastore:
     image: bde2020/hive:2.3.2-postgresql-metastore
     container_name: hive-metastore
@@ -80,7 +79,7 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.8
-  
+
   hive-metastore-postgresql:
     image: bde2020/hive-metastore-postgresql:2.3.0
     container_name: hive-metastore-postgresql
@@ -90,50 +89,49 @@ services:
       net_pet:
         ipv4_address: 172.27.1.9
 
-#Comentar todo este bloque
-#  jupyter:
+# jupyter:
 #   build: ./python
 #   restart: always
 #   ports:
 #     - "8200:8888"
 #   entrypoint:
 #     jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
-#   volumes: 
+#   volumes:
 #     - ./python:/user/app
 #   networks:
 #     net_pet:
 #       ipv4_address: 172.27.1.12
-        
+
   spark-master:
-   image: bde2020/spark-master:2.4.0-hadoop2.7
-   container_name: spark-master
-   ports:
-     - 8080:8080
-     - 7077:7077
-   environment:
-     - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
-   env_file:
-     - ./hadoop-hive.env
-   networks:
-     net_pet:
-       ipv4_address: 172.27.1.10
-    
+    image: bde2020/spark-master:2.4.0-hadoop2.7
+    container_name: spark-master
+    ports:
+      - 8080:8080
+      - 7077:7077
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
+    env_file:
+      - ./hadoop-hive.env
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.10
+
   spark-worker:
-   image: bde2020/spark-worker:2.4.0-hadoop2.7
-   container_name: spark-worker
-   depends_on:
-     - spark-master
-   environment:
-     - SPARK_MASTER=spark://spark-master:7077
-     - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
-     - HIVE_CORE_CONF_javax_jdo_option_ConnectionURL=jdbc:postgresql://hive-metastore/metastore
-   ports:
-     - 8081:8081
-   env_file:
-     - ./hadoop-hive.env
-   networks:
-     net_pet:
-       ipv4_address: 172.27.1.11
+    image: bde2020/spark-worker:2.4.0-hadoop2.7
+    container_name: spark-worker
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:8020
+      - HIVE_CORE_CONF_javax_jdo_option_ConnectionURL=jdbc:postgresql://hive-metastore/metastore
+    ports:
+      - 8081:8081
+    env_file:
+      - ./hadoop-hive.env
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.11
 
   sqoop:
     image: harisekhon/sqoop
@@ -147,7 +145,7 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.13
- 
+
 networks:
   net_pet:
     ipam:
