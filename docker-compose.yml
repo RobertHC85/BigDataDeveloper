@@ -124,7 +124,7 @@ services:
     image: bitnami/sqoop:latest
     container_name: sqoop
     environment:
-      - SQOOP_JOB_NAME=import_mysql_customers
+      - HADOOP_CONF_DIR=/opt/bitnami/hadoop/etc/hadoop
     depends_on:
       - mysql
       - hive-server
