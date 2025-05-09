@@ -89,19 +89,6 @@ services:
       net_pet:
         ipv4_address: 172.27.1.9
 
-# jupyter:
-#   build: ./python
-#   restart: always
-#   ports:
-#     - "8200:8888"
-#   entrypoint:
-#     jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
-#   volumes:
-#     - ./python:/user/app
-#   networks:
-#     net_pet:
-#       ipv4_address: 172.27.1.12
-
   spark-master:
     image: bde2020/spark-master:2.4.0-hadoop2.7
     container_name: spark-master
@@ -134,14 +121,15 @@ services:
         ipv4_address: 172.27.1.11
 
   sqoop:
-    image: sequenceiq/sqoop:1.4.6
+    image: bitnami/sqoop:latest
     container_name: sqoop
+    environment:
+      - SQOOP_JOB_NAME=import_mysql_customers
     depends_on:
+      - mysql
       - hive-server
       - namenode
       - datanode
-    environment:
-      - CONNECTOR_JDBC=mysql
     networks:
       net_pet:
         ipv4_address: 172.27.1.13
