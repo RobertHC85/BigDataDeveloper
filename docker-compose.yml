@@ -132,6 +132,19 @@ services:
    networks:
      net_pet:
        ipv4_address: 172.27.1.11
+
+  sqoop:
+    image: harisekhon/sqoop
+    container_name: sqoop
+    depends_on:
+      - hive-server
+      - namenode
+      - datanode
+    environment:
+      - CONNECTOR_JDBC=mysql
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.13
   
 networks:
   net_pet:
