@@ -120,20 +120,6 @@ services:
       net_pet:
         ipv4_address: 172.27.1.11
 
-  sqoop:
-    image: bitnami/sqoop:latest
-    container_name: sqoop
-    environment:
-      - HADOOP_CONF_DIR=/opt/bitnami/hadoop/etc/hadoop
-    depends_on:
-      - mysql
-      - hive-server
-      - namenode
-      - datanode
-    networks:
-      net_pet:
-        ipv4_address: 172.27.1.13
-
 networks:
   net_pet:
     ipam:
