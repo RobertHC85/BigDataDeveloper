@@ -47,6 +47,9 @@ services:
       - ./mysqldata:/mysql/data
     env_file:
       - ./mysql/variables.env
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.2
 
   hive-server:
     image: bde2020/hive:2.3.2-postgresql-metastore
@@ -121,10 +124,8 @@ services:
         ipv4_address: 172.27.1.11
 
   sqoop:
-    image: bitnami/sqoop:latest
+    build: ./sqoop
     container_name: sqoop
-    environment:
-      - HADOOP_CONF_DIR=/opt/bitnami/hadoop/etc/hadoop
     depends_on:
       - mysql
       - hive-server
@@ -135,6 +136,149 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.13
+
+  zookeeper:
+    image: bitnami/zookeeper:3.8
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+      - ZOO_LOG_DIR=/bitnami/zookeeper/logs
+    volumes:
+      - ./kafka/zookeeper/logs:/bitnami/zookeeper/logs
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.14
+
+  kafka-1:
+    image: bitnami/kafka:3.6
+    container_name: kafka-1
+    ports:
+      - "9092:9092"
+    environment:
+      - KAFKA_BROKER_ID=1
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:29092,PLAINTEXT_HOST://0.0.0.0:9092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-1:29092,PLAINTEXT_HOST://localhost:9092
+      #- KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-1:29092,PLAINTEXT_HOST://host.docker.internal:9092
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+      - KAFKA_CFG_DELETE_TOPIC_ENABLE=true
+      - KAFKA_CFG_LOG_DIRS=/bitnami/kafka/logs
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    volumes:
+      - ./kafka/logs/broker1:/bitnami/kafka/logs
+    depends_on:
+      - zookeeper
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.15
+
+#  kafka-2:
+#    image: bitnami/kafka:3.6
+#    container_name: kafka-2
+#    environment:
+#      - KAFKA_BROKER_ID=2
+#      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+#      - KAFKA_CFG_LISTENERS=PLAINTEXT://:29092
+      #- KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-2:29092
+#      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-2:29092,PLAINTEXT_HOST://host.docker.internal:9092
+#      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT
+#      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+#      - KAFKA_CFG_DELETE_TOPIC_ENABLE=true
+#      - KAFKA_CFG_LOG_DIRS=/bitnami/kafka/logs
+#      - ALLOW_PLAINTEXT_LISTENER=yes
+#    volumes:
+#      - ./kafka/logs/broker2:/bitnami/kafka/logs
+#    depends_on:
+#      - zookeeper
+#    networks:
+#      net_pet:
+#        ipv4_address: 172.27.1.16
+
+#  kafka-3:
+#    image: bitnami/kafka:3.6
+#    container_name: kafka-3
+#    environment:
+#      - KAFKA_BROKER_ID=3
+#      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+#      - KAFKA_CFG_LISTENERS=PLAINTEXT://:29092
+      #- KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-3:29092
+#      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka-3:29092,PLAINTEXT_HOST://host.docker.internal:9092
+#      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT
+#      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+#      - KAFKA_CFG_DELETE_TOPIC_ENABLE=true
+#      - KAFKA_CFG_LOG_DIRS=/bitnami/kafka/logs
+#      - ALLOW_PLAINTEXT_LISTENER=yes
+#    volumes:
+#      - ./kafka/logs/broker3:/bitnami/kafka/logs
+#    depends_on:
+#      - zookeeper
+#    networks:
+#      net_pet:
+#        ipv4_address: 172.27.1.12
+
+  airflow-postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - ./airflow/postgres-db:/var/lib/postgresql/data
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.17
+
+  airflow-webserver:
+    image: apache/airflow:2.10.2
+    restart: always
+    depends_on:
+      - airflow-postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "True"
+      #SequentialExecutor: por defecto, ejecuta tareas de una en una (solo para pruebas).
+      #CeleryExecutor: distribuido, usando workers (requiere Redis o RabbitMQ).
+      
+      #Número de ejecuciones paralelas:
+      #AIRFLOW__CORE__PARALLELISM=32
+      #AIRFLOW__CORE__DAG_CONCURRENCY=16
+      #AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG=2
+      #parallelism: límite global de tareas simultáneas.
+      #dag_concurrency: cuántas tareas de un DAG se pueden ejecutar a la vez.
+      #max_active_runs_per_dag: cuántas instancias activas del mismo DAG se permiten.
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
+      AIRFLOW__WEBSERVER__SECRET_KEY: your_secret_key_here
+      AIRFLOW__CORE__FERNET_KEY: HX8v0oNrSo5anWMwA43Wmz7SpOfqYaagxkvOVfUuU0I=
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    ports:
+      - "8082:8080"
+    command: bash -c "airflow db migrate && airflow users create --username admin --password admin --firstname admin --lastname admin --role Admin --email admin@example.com && airflow webserver"
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.18
+
+  airflow-scheduler:
+    image: apache/airflow:2.10.2
+    restart: always
+    depends_on:
+      - airflow-webserver
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: HX8v0oNrSo5anWMwA43Wmz7SpOfqYaagxkvOVfUuU0I=
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    command: airflow scheduler
+    networks:
+      net_pet:
+        ipv4_address: 172.27.1.19
 
 networks:
   net_pet:
