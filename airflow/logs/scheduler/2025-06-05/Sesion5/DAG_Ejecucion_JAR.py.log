@@ -446,3 +446,171 @@
 [2025-06-05T05:21:33.542+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:33.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-05T05:21:33.612+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:33.612+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
 [2025-06-05T05:21:33.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.439 seconds
+[2025-06-05T05:22:04.139+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:04.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:22:04.143+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:04.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:04.153+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:04.177+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:04.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:22:04.253+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:04.253+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:22:04.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.152 seconds
+[2025-06-05T05:22:34.627+0000] {processor.py:186} INFO - Started process (PID=523) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:34.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:22:34.630+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:34.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:34.639+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:22:34.664+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:34.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:22:34.696+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:34.694+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:22:34.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.105 seconds
+[2025-06-05T05:23:04.991+0000] {processor.py:186} INFO - Started process (PID=638) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:04.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:23:04.994+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:04.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:05.003+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:05.027+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:05.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:23:05.057+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:05.057+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:23:05.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.092 seconds
+[2025-06-05T05:23:35.635+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:35.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:23:35.638+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:35.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:35.646+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:23:35.670+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:35.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:23:35.700+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:35.700+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:23:35.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.093 seconds
+[2025-06-05T05:24:06.310+0000] {processor.py:186} INFO - Started process (PID=868) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:06.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:24:06.313+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:06.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:06.322+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:06.347+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:06.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:24:06.378+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:06.377+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:24:06.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.101 seconds
+[2025-06-05T05:24:36.638+0000] {processor.py:186} INFO - Started process (PID=983) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:36.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:24:36.641+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:36.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:36.650+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:24:36.674+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:36.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:24:36.703+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:36.703+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:24:36.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.092 seconds
+[2025-06-05T05:25:06.880+0000] {processor.py:186} INFO - Started process (PID=1098) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:06.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:25:06.884+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:06.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:06.893+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:06.921+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:06.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:25:06.955+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:06.954+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:25:06.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.108 seconds
+[2025-06-05T05:25:37.049+0000] {processor.py:186} INFO - Started process (PID=1213) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:37.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:25:37.053+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:37.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:37.062+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:25:37.086+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:37.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:25:37.116+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:37.116+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:25:37.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.106 seconds
+[2025-06-05T05:26:07.190+0000] {processor.py:186} INFO - Started process (PID=1328) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:07.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:26:07.193+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:07.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:07.202+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:07.226+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:07.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:26:07.265+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:07.263+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:26:07.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.111 seconds
+[2025-06-05T05:26:37.518+0000] {processor.py:186} INFO - Started process (PID=1443) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:37.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:26:37.522+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:37.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:37.532+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:26:37.559+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:37.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:26:37.590+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:37.590+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:26:37.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.102 seconds
+[2025-06-05T05:27:07.749+0000] {processor.py:186} INFO - Started process (PID=1558) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:07.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:27:07.752+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:07.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:07.761+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:07.787+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:07.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:27:07.817+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:07.817+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:27:07.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.098 seconds
+[2025-06-05T05:27:38.335+0000] {processor.py:186} INFO - Started process (PID=1673) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:38.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:27:38.339+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:38.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:38.350+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:27:38.379+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:38.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:27:38.449+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:38.448+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:27:38.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.177 seconds
+[2025-06-05T05:28:09.004+0000] {processor.py:186} INFO - Started process (PID=1788) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:09.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:28:09.009+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:09.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:09.022+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:09.054+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:09.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:28:09.089+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:09.088+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:28:09.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.112 seconds
+[2025-06-05T05:28:40.034+0000] {processor.py:186} INFO - Started process (PID=1903) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:40.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:28:40.037+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:40.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:40.046+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:28:40.071+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:40.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:28:40.101+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:40.100+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:28:40.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.093 seconds
+[2025-06-05T05:29:10.743+0000] {processor.py:186} INFO - Started process (PID=2018) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:10.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:29:10.748+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:10.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:10.758+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:10.783+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:10.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:29:10.812+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:10.812+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:29:10.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.099 seconds
+[2025-06-05T05:29:40.987+0000] {processor.py:186} INFO - Started process (PID=2133) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:40.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:29:40.990+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:40.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:40.998+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:29:41.022+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:41.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:29:41.052+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:41.052+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:29:41.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.092 seconds
+[2025-06-05T05:30:11.179+0000] {processor.py:186} INFO - Started process (PID=2248) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:11.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:30:11.188+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:11.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:11.203+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:11.240+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:11.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:30:11.273+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:11.273+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:30:11.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.136 seconds
+[2025-06-05T05:30:42.162+0000] {processor.py:186} INFO - Started process (PID=2363) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:42.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:30:42.167+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:42.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:42.180+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:30:42.222+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:42.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:30:42.299+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:42.299+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:30:42.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.166 seconds
+[2025-06-05T05:31:12.381+0000] {processor.py:186} INFO - Started process (PID=2478) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:12.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:31:12.386+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:12.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:12.395+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:12.422+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:12.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:31:12.464+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:12.464+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:31:12.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.139 seconds
+[2025-06-05T05:31:42.772+0000] {processor.py:186} INFO - Started process (PID=2593) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:42.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:31:42.775+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:42.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:42.785+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:31:42.813+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:42.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:31:42.845+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:42.845+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:31:42.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.102 seconds
+[2025-06-05T05:38:41.024+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:38:41.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:38:41.075+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:41.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:38:41.157+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:38:41.297+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:41.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:38:41.365+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:41.365+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:38:41.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.406 seconds
+[2025-06-05T05:39:11.903+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:11.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:39:11.914+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:11.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:11.959+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:11.996+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:11.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:39:12.068+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:12.068+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:39:12.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.211 seconds
+[2025-06-05T05:39:42.953+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:42.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:39:42.959+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:42.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:42.968+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:39:42.994+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:42.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:39:43.025+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:43.025+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:39:43.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.115 seconds
+[2025-06-05T05:40:13.345+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:40:13.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py for tasks to queue
+[2025-06-05T05:40:13.347+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:13.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:40:13.363+0000] {processor.py:925} INFO - DAG(s) 'dag_run_java_jar' retrieved from /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py
+[2025-06-05T05:40:13.402+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:13.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:40:13.441+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:13.440+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_run_java_jar to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2025-06-05T05:40:13.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py took 0.151 seconds

@@ -318,3 +318,123 @@
 [2025-06-05T05:21:33.709+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:33.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
 [2025-06-05T05:21:33.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
 [2025-06-05T05:21:33.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.032 seconds
+[2025-06-05T05:22:04.326+0000] {processor.py:186} INFO - Started process (PID=418) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:04.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:22:04.330+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:04.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:04.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:04.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.027 seconds
+[2025-06-05T05:22:34.754+0000] {processor.py:186} INFO - Started process (PID=533) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:34.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:22:34.757+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:34.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:34.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:22:34.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:23:05.136+0000] {processor.py:186} INFO - Started process (PID=648) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:05.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:23:05.139+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:05.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:05.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:05.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.029 seconds
+[2025-06-05T05:23:35.752+0000] {processor.py:186} INFO - Started process (PID=763) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:35.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:23:35.754+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:35.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:35.755+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:23:35.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:24:06.438+0000] {processor.py:186} INFO - Started process (PID=878) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:06.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:24:06.440+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:06.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:06.441+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:06.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:24:36.754+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:36.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:24:36.756+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:36.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:36.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:24:36.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:25:07.020+0000] {processor.py:186} INFO - Started process (PID=1108) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:07.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:25:07.022+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:07.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:07.023+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:07.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.021 seconds
+[2025-06-05T05:25:37.179+0000] {processor.py:186} INFO - Started process (PID=1223) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:37.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:25:37.181+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:37.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:37.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:25:37.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.019 seconds
+[2025-06-05T05:26:07.319+0000] {processor.py:186} INFO - Started process (PID=1338) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:07.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:26:07.321+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:07.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:07.322+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:07.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:26:37.649+0000] {processor.py:186} INFO - Started process (PID=1453) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:37.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:26:37.652+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:37.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:37.653+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:26:37.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.020 seconds
+[2025-06-05T05:27:07.878+0000] {processor.py:186} INFO - Started process (PID=1568) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:07.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:27:07.881+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:07.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:07.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:07.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.020 seconds
+[2025-06-05T05:27:38.574+0000] {processor.py:186} INFO - Started process (PID=1683) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:38.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:27:38.577+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:38.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:38.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:27:38.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.023 seconds
+[2025-06-05T05:28:09.176+0000] {processor.py:186} INFO - Started process (PID=1796) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:09.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:28:09.182+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:09.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:09.184+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:09.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.039 seconds
+[2025-06-05T05:28:40.152+0000] {processor.py:186} INFO - Started process (PID=1913) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:40.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:28:40.155+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:40.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:40.156+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:28:40.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.019 seconds
+[2025-06-05T05:29:10.866+0000] {processor.py:186} INFO - Started process (PID=2028) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:10.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:29:10.869+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:10.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:10.870+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:10.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.019 seconds
+[2025-06-05T05:29:41.103+0000] {processor.py:186} INFO - Started process (PID=2143) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:41.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:29:41.106+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:41.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:41.107+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:29:41.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:30:11.343+0000] {processor.py:186} INFO - Started process (PID=2256) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:11.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:30:11.347+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:11.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:11.348+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:11.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.026 seconds
+[2025-06-05T05:30:42.362+0000] {processor.py:186} INFO - Started process (PID=2373) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:42.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:30:42.365+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:42.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:42.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:30:42.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.022 seconds
+[2025-06-05T05:31:12.543+0000] {processor.py:186} INFO - Started process (PID=2488) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:12.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:31:12.547+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:12.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:12.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:12.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.024 seconds
+[2025-06-05T05:31:42.911+0000] {processor.py:186} INFO - Started process (PID=2603) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:42.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:31:42.914+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:42.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:42.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:31:42.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.021 seconds
+[2025-06-05T05:38:41.478+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:38:41.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:38:41.497+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:41.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:38:41.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:38:41.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.072 seconds
+[2025-06-05T05:39:12.140+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:12.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:39:12.144+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:12.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:12.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:12.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.053 seconds
+[2025-06-05T05:39:43.094+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:43.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:39:43.096+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:43.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:43.097+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:39:43.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.018 seconds
+[2025-06-05T05:40:13.534+0000] {processor.py:186} INFO - Started process (PID=507) to work on /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:40:13.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar for tasks to queue
+[2025-06-05T05:40:13.536+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:13.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:40:13.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar
+[2025-06-05T05:40:13.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar took 0.025 seconds

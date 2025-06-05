@@ -439,3 +439,157 @@
 [2025-06-05T05:21:37.498+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:37.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-05T05:21:37.513+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:37.512+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
 [2025-06-05T05:21:37.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.811 seconds
+[2025-06-05T05:22:08.346+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:08.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:22:08.350+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:08.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:08.994+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:09.014+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:09.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:22:09.028+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:09.028+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:22:09.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.705 seconds
+[2025-06-05T05:22:39.788+0000] {processor.py:186} INFO - Started process (PID=538) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:39.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:22:39.792+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:39.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:40.334+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:22:40.353+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:40.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:22:40.368+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:22:40.367+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:22:40.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.601 seconds
+[2025-06-05T05:23:11.161+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:11.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:23:11.165+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:11.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:11.998+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:12.023+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:12.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:23:12.038+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:12.038+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:23:12.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.899 seconds
+[2025-06-05T05:23:42.816+0000] {processor.py:186} INFO - Started process (PID=768) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:42.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:23:42.836+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:42.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:43.426+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:23:43.445+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:43.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:23:43.468+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:23:43.468+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:23:43.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.688 seconds
+[2025-06-05T05:24:14.481+0000] {processor.py:186} INFO - Started process (PID=883) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:14.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:24:14.485+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:14.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:15.114+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:15.138+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:15.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:24:15.153+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:15.152+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:24:15.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.697 seconds
+[2025-06-05T05:24:45.802+0000] {processor.py:186} INFO - Started process (PID=998) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:45.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:24:45.805+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:45.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:46.335+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:24:46.356+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:46.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:24:46.370+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:24:46.370+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:24:46.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.590 seconds
+[2025-06-05T05:25:17.075+0000] {processor.py:186} INFO - Started process (PID=1113) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:17.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:25:17.079+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:17.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:17.746+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:17.765+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:17.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:25:17.785+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:17.785+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:25:17.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.733 seconds
+[2025-06-05T05:25:48.234+0000] {processor.py:186} INFO - Started process (PID=1228) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:48.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:25:48.237+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:48.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:49.025+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:25:49.050+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:49.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:25:49.064+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:25:49.063+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:25:49.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.855 seconds
+[2025-06-05T05:26:19.380+0000] {processor.py:186} INFO - Started process (PID=1343) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:19.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:26:19.385+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:19.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:19.987+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:20.004+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:20.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:26:20.018+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:20.018+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:26:20.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.660 seconds
+[2025-06-05T05:26:50.731+0000] {processor.py:186} INFO - Started process (PID=1458) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:50.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:26:50.740+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:50.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:51.324+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:26:51.344+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:51.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:26:51.359+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:26:51.359+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:26:51.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.659 seconds
+[2025-06-05T05:27:21.949+0000] {processor.py:186} INFO - Started process (PID=1573) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:21.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:27:21.952+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:21.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:22.590+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:22.612+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:22.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:27:22.629+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:22.629+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:27:22.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.704 seconds
+[2025-06-05T05:27:53.646+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:53.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:27:53.650+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:53.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:54.318+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:27:54.341+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:54.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:27:54.357+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:27:54.357+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:27:54.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.736 seconds
+[2025-06-05T05:28:25.313+0000] {processor.py:186} INFO - Started process (PID=1803) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:25.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:28:25.317+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:25.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:25.964+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:25.985+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:25.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:28:26.002+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:26.001+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:28:26.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.711 seconds
+[2025-06-05T05:28:56.231+0000] {processor.py:186} INFO - Started process (PID=1918) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:56.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:28:56.234+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:56.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:56.926+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:28:56.947+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:56.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:28:56.963+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:28:56.962+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:28:56.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.754 seconds
+[2025-06-05T05:29:27.950+0000] {processor.py:186} INFO - Started process (PID=2033) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:27.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:29:27.957+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:27.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:28.494+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:28.512+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:28.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:29:28.529+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:28.529+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:29:28.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.601 seconds
+[2025-06-05T05:29:59.190+0000] {processor.py:186} INFO - Started process (PID=2148) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:59.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:29:59.196+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:59.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:59.903+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:29:59.923+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:59.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:29:59.938+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:29:59.938+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:29:59.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.779 seconds
+[2025-06-05T05:30:30.460+0000] {processor.py:186} INFO - Started process (PID=2263) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:30:30.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:30:30.464+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:30.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:30:31.119+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:30:31.148+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:31.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:30:31.165+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:30:31.164+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:30:31.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.731 seconds
+[2025-06-05T05:31:01.480+0000] {processor.py:186} INFO - Started process (PID=2378) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:01.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:31:01.484+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:01.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:02.203+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:02.226+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:02.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:31:02.242+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:02.242+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:31:02.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.787 seconds
+[2025-06-05T05:31:32.645+0000] {processor.py:186} INFO - Started process (PID=2493) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:32.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:31:32.649+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:32.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:33.337+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:31:33.374+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:33.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:31:33.393+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:31:33.392+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:31:33.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.778 seconds
+[2025-06-05T05:38:41.592+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:38:41.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:38:41.630+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:41.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:38:47.728+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:38:47.904+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:47.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:38:47.970+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:38:47.969+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:38:48.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 6.461 seconds
+[2025-06-05T05:39:18.180+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:18.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:39:18.183+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:18.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:19.092+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:19.116+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:19.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:39:19.131+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:19.130+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:39:19.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.973 seconds
+[2025-06-05T05:39:50.132+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:50.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_Parametros.py for tasks to queue
+[2025-06-05T05:39:50.134+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:50.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:50.760+0000] {processor.py:925} INFO - DAG(s) 'etl_with_trigger_params' retrieved from /opt/airflow/dags/Sesion5/DAG_Parametros.py
+[2025-06-05T05:39:50.788+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:50.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:39:50.803+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:50.803+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_with_trigger_params to None, run_after=None
+[2025-06-05T05:39:50.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_Parametros.py took 0.693 seconds

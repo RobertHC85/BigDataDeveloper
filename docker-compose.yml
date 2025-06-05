@@ -232,23 +232,16 @@ services:
         ipv4_address: 172.27.1.17
 
   airflow-webserver:
-    image: apache/airflow:2.10.2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: airflow-custom:2.10.2-java
     restart: always
     depends_on:
       - airflow-postgres
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "True"
-      #SequentialExecutor: por defecto, ejecuta tareas de una en una (solo para pruebas).
-      #CeleryExecutor: distribuido, usando workers (requiere Redis o RabbitMQ).
-      
-      #Número de ejecuciones paralelas:
-      #AIRFLOW__CORE__PARALLELISM=32
-      #AIRFLOW__CORE__DAG_CONCURRENCY=16
-      #AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG=2
-      #parallelism: límite global de tareas simultáneas.
-      #dag_concurrency: cuántas tareas de un DAG se pueden ejecutar a la vez.
-      #max_active_runs_per_dag: cuántas instancias activas del mismo DAG se permiten.
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
       AIRFLOW__WEBSERVER__SECRET_KEY: your_secret_key_here
       AIRFLOW__CORE__FERNET_KEY: HX8v0oNrSo5anWMwA43Wmz7SpOfqYaagxkvOVfUuU0I=
