@@ -10,7 +10,8 @@ def hello_world():
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2025, 5, 27),
+    'start_date': datetime(2025, 6, 5),
+    #prueba de cambio
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
