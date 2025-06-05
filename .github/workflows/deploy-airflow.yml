@@ -2,7 +2,11 @@ name: Sync DAGs to Airflow in Codespace
 
 on:
   push:
-    branches: [main]
+    paths:
+      - 'airflow/dags/**'
+      - 'reload_dags.sh'
+    branches:
+      - main
 
 jobs:
   reload-dags:
@@ -12,11 +16,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: (Opcional) Validar DAGs localmente
-        run: |
-          docker exec bigdatadeveloper-airflow-webserver-1 airflow dags list || echo "Validación fallida, pero continuamos..."
-
-      - name: Tocar archivo para forzar recarga
-        run: |
-          docker exec bigdatadeveloper-airflow-webserver-1 bash -c "touch /opt/airflow/dags/__init__.py"
-          docker exec bigdatadeveloper-airflow-scheduler-1 pkill -HUP -f "airflow scheduler" || echo "No se pudo recargar scheduler"
+      - name: Recargar DAGs dentro de Codespace
+        run: bash reload_dags.sh
