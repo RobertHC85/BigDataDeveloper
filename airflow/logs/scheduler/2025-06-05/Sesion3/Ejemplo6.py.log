@@ -670,3 +670,35 @@
 [2025-06-05T05:39:53.967+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:53.967+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_1_ejemplo6 to 2025-05-30 00:00:00+00:00, run_after=2025-05-31 00:00:00+00:00
 [2025-06-05T05:39:53.972+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:53.972+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_2_ejemplo6 to None, run_after=None
 [2025-06-05T05:39:53.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo6.py took 0.104 seconds
+[2025-06-05T05:40:24.933+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:24.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo6.py for tasks to queue
+[2025-06-05T05:40:24.934+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:24.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:24.942+0000] {processor.py:925} INFO - DAG(s) 'dag_1_ejemplo6', 'dag_2_ejemplo6' retrieved from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:24.964+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:24.963+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-05T05:40:24.985+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:24.985+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_1_ejemplo6 to 2025-05-30 00:00:00+00:00, run_after=2025-05-31 00:00:00+00:00
+[2025-06-05T05:40:24.989+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:24.988+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_2_ejemplo6 to None, run_after=None
+[2025-06-05T05:40:25.002+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo6.py took 0.075 seconds
+[2025-06-05T05:40:55.148+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:55.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo6.py for tasks to queue
+[2025-06-05T05:40:55.150+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:55.162+0000] {processor.py:925} INFO - DAG(s) 'dag_1_ejemplo6', 'dag_2_ejemplo6' retrieved from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:40:55.190+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.190+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-05T05:40:55.220+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.219+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_1_ejemplo6 to 2025-05-30 00:00:00+00:00, run_after=2025-05-31 00:00:00+00:00
+[2025-06-05T05:40:55.224+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.224+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_2_ejemplo6 to None, run_after=None
+[2025-06-05T05:40:55.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo6.py took 0.119 seconds
+[2025-06-05T05:41:25.340+0000] {processor.py:186} INFO - Started process (PID=798) to work on /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:25.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo6.py for tasks to queue
+[2025-06-05T05:41:25.342+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:25.353+0000] {processor.py:925} INFO - DAG(s) 'dag_2_ejemplo6', 'dag_1_ejemplo6' retrieved from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:25.380+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.380+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-05T05:41:25.428+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.428+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_1_ejemplo6 to 2025-05-30 00:00:00+00:00, run_after=2025-05-31 00:00:00+00:00
+[2025-06-05T05:41:25.433+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.433+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_2_ejemplo6 to None, run_after=None
+[2025-06-05T05:41:25.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo6.py took 0.125 seconds
+[2025-06-05T05:41:56.874+0000] {processor.py:186} INFO - Started process (PID=916) to work on /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:56.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo6.py for tasks to queue
+[2025-06-05T05:41:56.876+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:56.898+0000] {processor.py:925} INFO - DAG(s) 'dag_1_ejemplo6', 'dag_2_ejemplo6' retrieved from /opt/airflow/dags/Sesion3/Ejemplo6.py
+[2025-06-05T05:41:56.929+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.929+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-05T05:41:56.962+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.962+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_1_ejemplo6 to 2025-05-30 00:00:00+00:00, run_after=2025-05-31 00:00:00+00:00
+[2025-06-05T05:41:56.967+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.967+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_2_ejemplo6 to None, run_after=None
+[2025-06-05T05:41:56.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo6.py took 0.121 seconds

@@ -20870,3 +20870,119 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/Sesion3/Ejemplo7.py                                          0           1  0.05s           2025-06-05T05:39:53                       5
 /opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar                           0           0  0.03s           2025-06-05T05:39:43                       3
 ================================================================================
+[2025-06-05T05:40:42.419+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Sesion5/DAG_variables_1.py                                   1           0  1.05s           2025-06-05T05:40:22                      10
+/opt/airflow/dags/Sesion5/DAG_Parametros.py                                    1           0  0.99s           2025-06-05T05:40:22                      10
+/opt/airflow/dags/Sesion5/DAG_variables.py                                     1           0  0.56s           2025-06-05T05:40:24                      10
+/opt/airflow/dags/Sesion5/DAG_Jar.py                                           1           0  0.20s           2025-06-05T05:40:13                      12
+/opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py                                 1           0  0.19s           2025-06-05T05:40:13                      12
+/opt/airflow/dags/Sesion5/producer_dag_dataset.py                              1           0  0.19s           2025-06-05T05:40:24                      13
+/opt/airflow/dags/Sesion5/consumer_dag_dataset.py                              1           0  0.17s           2025-06-05T05:40:24                      13
+/opt/airflow/dags/Sesion2/Ejemplo4.py                                          1           0  0.15s           2025-06-05T05:40:25                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_2.py                                      1           0  0.14s           2025-06-05T05:40:23                      14
+/opt/airflow/dags/Sesion2/Ejemplo2.py                                          1           0  0.14s           2025-06-05T05:40:25                      12
+/opt/airflow/dags/Sesion5/DAG_bash_s5.py                                       1           0  0.14s           2025-06-05T05:40:22                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_1.py                                      1           0  0.14s           2025-06-05T05:40:24                      13
+/opt/airflow/dags/Sesion2/Ejemplo1.py                                          1           0  0.14s           2025-06-05T05:40:25                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_3.py                                      1           0  0.13s           2025-06-05T05:40:22                      14
+/opt/airflow/dags/Sesion5/Dataset_S5_4_1.py                                    1           0  0.13s           2025-06-05T05:40:22                      10
+/opt/airflow/dags/Sesion2/Ejemplo3.py                                          1           0  0.13s           2025-06-05T05:40:25                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_4.py                                      1           0  0.13s           2025-06-05T05:40:23                      14
+/opt/airflow/dags/Sesion3/Ejemplo7.py                                          0           1  0.12s           2025-06-05T05:40:24                       5
+/opt/airflow/dags/Sesion3/Ejemplo8.py                                          0           1  0.12s           2025-06-05T05:40:24                       5
+/opt/airflow/dags/Sesion3/Ejemplo6.py                                          2           0  0.11s           2025-06-05T05:40:25                      15
+/opt/airflow/dags/Sesion3/Ejemplo9.py                                          0           1  0.08s           2025-06-05T05:40:25                       5
+/opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar                           0           0  0.05s           2025-06-05T05:40:13                       3
+================================================================================
+[2025-06-05T05:41:12.808+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Sesion5/DAG_Parametros.py                                    1           0  0.77s           2025-06-05T05:40:53                      10
+/opt/airflow/dags/Sesion5/DAG_variables.py                                     1           0  0.74s           2025-06-05T05:40:55                      10
+/opt/airflow/dags/Sesion5/DAG_variables_1.py                                   1           0  0.72s           2025-06-05T05:40:53                      10
+/opt/airflow/dags/Sesion5/Dataset_S5_2.py                                      1           0  0.18s           2025-06-05T05:40:54                      14
+/opt/airflow/dags/Sesion5/DAG_Jar.py                                           1           0  0.16s           2025-06-05T05:40:44                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_4.py                                      1           0  0.15s           2025-06-05T05:40:54                      14
+/opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py                                 1           0  0.15s           2025-06-05T05:40:44                      12
+/opt/airflow/dags/Sesion3/Ejemplo6.py                                          2           0  0.15s           2025-06-05T05:40:55                      15
+/opt/airflow/dags/Sesion5/DAG_bash_s5.py                                       1           0  0.15s           2025-06-05T05:40:53                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_1.py                                      1           0  0.14s           2025-06-05T05:40:54                      13
+/opt/airflow/dags/Sesion5/Dataset_S5_4_1.py                                    1           0  0.13s           2025-06-05T05:40:53                      10
+/opt/airflow/dags/Sesion5/producer_dag_dataset.py                              1           0  0.13s           2025-06-05T05:40:54                      13
+/opt/airflow/dags/Sesion2/Ejemplo3.py                                          1           0  0.12s           2025-06-05T05:40:55                      12
+/opt/airflow/dags/Sesion2/Ejemplo2.py                                          1           0  0.12s           2025-06-05T05:40:55                      12
+/opt/airflow/dags/Sesion2/Ejemplo4.py                                          1           0  0.12s           2025-06-05T05:40:55                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_3.py                                      1           0  0.10s           2025-06-05T05:40:53                      14
+/opt/airflow/dags/Sesion2/Ejemplo1.py                                          1           0  0.09s           2025-06-05T05:40:55                      12
+/opt/airflow/dags/Sesion5/consumer_dag_dataset.py                              1           0  0.08s           2025-06-05T05:40:54                      13
+/opt/airflow/dags/Sesion3/Ejemplo8.py                                          0           1  0.08s           2025-06-05T05:40:55                       5
+/opt/airflow/dags/Sesion3/Ejemplo7.py                                          0           1  0.08s           2025-06-05T05:40:55                       5
+/opt/airflow/dags/Sesion3/Ejemplo9.py                                          0           1  0.06s           2025-06-05T05:40:55                       5
+/opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar                           0           0  0.05s           2025-06-05T05:40:44                       3
+================================================================================
+[2025-06-05T05:41:43.249+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Sesion5/DAG_variables.py                                     1           0  0.84s           2025-06-05T05:41:27                      10
+/opt/airflow/dags/Sesion5/DAG_Parametros.py                                    1           0  0.74s           2025-06-05T05:41:24                      10
+/opt/airflow/dags/Sesion5/DAG_variables_1.py                                   1           0  0.70s           2025-06-05T05:41:24                      10
+/opt/airflow/dags/Sesion2/Ejemplo2.py                                          1           0  0.25s           2025-06-05T05:41:27                      12
+/opt/airflow/dags/Sesion2/Ejemplo3.py                                          1           0  0.16s           2025-06-05T05:41:26                      12
+/opt/airflow/dags/Sesion3/Ejemplo6.py                                          2           0  0.15s           2025-06-05T05:41:25                      15
+/opt/airflow/dags/Sesion5/DAG_bash_s5.py                                       1           0  0.14s           2025-06-05T05:41:24                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_1.py                                      1           0  0.14s           2025-06-05T05:41:25                      13
+/opt/airflow/dags/Sesion5/Dataset_S5_2.py                                      1           0  0.13s           2025-06-05T05:41:25                      14
+/opt/airflow/dags/Sesion5/Dataset_S5_4_1.py                                    1           0  0.13s           2025-06-05T05:41:24                      10
+/opt/airflow/dags/Sesion2/Ejemplo4.py                                          1           0  0.13s           2025-06-05T05:41:26                      12
+/opt/airflow/dags/Sesion2/Ejemplo1.py                                          1           0  0.13s           2025-06-05T05:41:27                      12
+/opt/airflow/dags/Sesion5/producer_dag_dataset.py                              1           0  0.13s           2025-06-05T05:41:25                      13
+/opt/airflow/dags/Sesion5/Dataset_S5_3.py                                      1           0  0.12s           2025-06-05T05:41:24                      14
+/opt/airflow/dags/Sesion5/DAG_Jar.py                                           1           0  0.12s           2025-06-05T05:41:14                      12
+/opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py                                 1           0  0.12s           2025-06-05T05:41:14                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_4.py                                      1           0  0.12s           2025-06-05T05:41:25                      14
+/opt/airflow/dags/Sesion5/consumer_dag_dataset.py                              1           0  0.12s           2025-06-05T05:41:25                      13
+/opt/airflow/dags/Sesion3/Ejemplo7.py                                          0           1  0.08s           2025-06-05T05:41:25                       5
+/opt/airflow/dags/Sesion3/Ejemplo8.py                                          0           1  0.08s           2025-06-05T05:41:25                       5
+/opt/airflow/dags/Sesion3/Ejemplo9.py                                          0           1  0.07s           2025-06-05T05:41:25                       5
+/opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar                           0           0  0.03s           2025-06-05T05:41:14                       3
+================================================================================
+[2025-06-05T05:42:13.327+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Sesion5/DAG_Parametros.py                                    1           0  0.74s           2025-06-05T05:41:56                      10
+/opt/airflow/dags/Sesion5/DAG_variables_1.py                                   1           0  0.71s           2025-06-05T05:41:56                      10
+/opt/airflow/dags/Sesion5/DAG_variables.py                                     1           0  0.51s           2025-06-05T05:41:58                      10
+/opt/airflow/dags/Sesion3/Ejemplo6.py                                          2           0  0.16s           2025-06-05T05:41:56                      15
+/opt/airflow/dags/Sesion5/DAG_Ejecucion_JAR.py                                 1           0  0.15s           2025-06-05T05:41:45                      12
+/opt/airflow/dags/Sesion3/Ejemplo9.py                                          0           1  0.14s           2025-06-05T05:41:56                       5
+/opt/airflow/dags/Sesion5/DAG_Jar.py                                           1           0  0.13s           2025-06-05T05:41:45                      12
+/opt/airflow/dags/Sesion2/Ejemplo4.py                                          1           0  0.13s           2025-06-05T05:41:57                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_1.py                                      1           0  0.13s           2025-06-05T05:41:56                      13
+/opt/airflow/dags/Sesion2/Ejemplo1.py                                          1           0  0.12s           2025-06-05T05:41:58                      12
+/opt/airflow/dags/Sesion5/producer_dag_dataset.py                              1           0  0.12s           2025-06-05T05:41:56                      13
+/opt/airflow/dags/Sesion5/Dataset_S5_2.py                                      1           0  0.12s           2025-06-05T05:41:56                      14
+/opt/airflow/dags/Sesion5/DAG_bash_s5.py                                       1           0  0.12s           2025-06-05T05:41:56                      12
+/opt/airflow/dags/Sesion5/consumer_dag_dataset.py                              1           0  0.12s           2025-06-05T05:41:56                      13
+/opt/airflow/dags/Sesion2/Ejemplo3.py                                          1           0  0.12s           2025-06-05T05:41:57                      12
+/opt/airflow/dags/Sesion5/Dataset_S5_4.py                                      1           0  0.11s           2025-06-05T05:41:56                      14
+/opt/airflow/dags/Sesion5/Dataset_S5_4_1.py                                    1           0  0.10s           2025-06-05T05:41:56                      10
+/opt/airflow/dags/Sesion2/Ejemplo2.py                                          1           0  0.10s           2025-06-05T05:41:57                      12
+/opt/airflow/dags/Sesion3/Ejemplo7.py                                          0           1  0.10s           2025-06-05T05:41:56                       5
+/opt/airflow/dags/Sesion5/Dataset_S5_3.py                                      1           0  0.08s           2025-06-05T05:41:56                      14
+/opt/airflow/dags/Sesion3/Ejemplo8.py                                          0           1  0.08s           2025-06-05T05:41:56                       5
+/opt/airflow/dags/Sesion5/data/HolaMundoDatapath.jar                           0           0  0.05s           2025-06-05T05:41:45                       3
+================================================================================

@@ -593,3 +593,38 @@
 [2025-06-05T05:39:50.907+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:50.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-05T05:39:50.934+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:39:50.934+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
 [2025-06-05T05:39:50.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.090 seconds
+[2025-06-05T05:40:22.577+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:22.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_bash_s5.py for tasks to queue
+[2025-06-05T05:40:22.580+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:22.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:22.591+0000] {processor.py:925} INFO - DAG(s) 'ejemplo_bash_dag_s5' retrieved from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:22.615+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:22.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:40:22.653+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:22.652+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T05:40:22.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.109 seconds
+[2025-06-05T05:40:53.401+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:53.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_bash_s5.py for tasks to queue
+[2025-06-05T05:40:53.403+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:53.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:53.413+0000] {processor.py:925} INFO - DAG(s) 'ejemplo_bash_dag_s5' retrieved from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:40:53.439+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:53.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:40:53.473+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:53.473+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T05:40:53.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.115 seconds
+[2025-06-05T05:41:24.730+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:24.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_bash_s5.py for tasks to queue
+[2025-06-05T05:41:24.733+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:24.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:24.745+0000] {processor.py:925} INFO - DAG(s) 'ejemplo_bash_dag_s5' retrieved from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:24.770+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:24.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:41:24.807+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:24.806+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T05:41:24.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.107 seconds
+[2025-06-05T05:41:56.191+0000] {processor.py:186} INFO - Started process (PID=863) to work on /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:56.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_bash_s5.py for tasks to queue
+[2025-06-05T05:41:56.193+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:56.202+0000] {processor.py:925} INFO - DAG(s) 'ejemplo_bash_dag_s5' retrieved from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:41:56.226+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:41:56.256+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.256+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T05:41:56.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.091 seconds
+[2025-06-05T05:42:27.803+0000] {processor.py:186} INFO - Started process (PID=976) to work on /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:42:27.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/DAG_bash_s5.py for tasks to queue
+[2025-06-05T05:42:27.805+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:42:27.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:42:27.812+0000] {processor.py:925} INFO - DAG(s) 'ejemplo_bash_dag_s5' retrieved from /opt/airflow/dags/Sesion5/DAG_bash_s5.py
+[2025-06-05T05:42:27.830+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:42:27.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:42:27.851+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:42:27.851+0000] {dag.py:4180} INFO - Setting next_dagrun for ejemplo_bash_dag_s5 to 2025-06-04 00:00:00+00:00, run_after=2025-06-05 00:00:00+00:00
+[2025-06-05T05:42:27.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/DAG_bash_s5.py took 0.067 seconds

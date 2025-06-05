@@ -607,3 +607,59 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pymysql'
 [2025-06-05T05:39:53.908+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion3/Ejemplo9.py
 [2025-06-05T05:39:53.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo9.py took 0.032 seconds
+[2025-06-05T05:40:25.054+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:25.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo9.py for tasks to queue
+[2025-06-05T05:40:25.056+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:25.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:25.060+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:25.059+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Sesion3/Ejemplo9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sesion3/Ejemplo9.py", line 6, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2025-06-05T05:40:25.061+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:25.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo9.py took 0.050 seconds
+[2025-06-05T05:40:55.307+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:55.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo9.py for tasks to queue
+[2025-06-05T05:40:55.309+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:55.313+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:40:55.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Sesion3/Ejemplo9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sesion3/Ejemplo9.py", line 6, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2025-06-05T05:40:55.313+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:40:55.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo9.py took 0.032 seconds
+[2025-06-05T05:41:25.389+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:25.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo9.py for tasks to queue
+[2025-06-05T05:41:25.391+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:25.395+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:25.394+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Sesion3/Ejemplo9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sesion3/Ejemplo9.py", line 6, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2025-06-05T05:41:25.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:25.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo9.py took 0.039 seconds
+[2025-06-05T05:41:56.823+0000] {processor.py:186} INFO - Started process (PID=911) to work on /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:56.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion3/Ejemplo9.py for tasks to queue
+[2025-06-05T05:41:56.827+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:56.832+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:41:56.830+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Sesion3/Ejemplo9.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Sesion3/Ejemplo9.py", line 6, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2025-06-05T05:41:56.834+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Sesion3/Ejemplo9.py
+[2025-06-05T05:41:56.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion3/Ejemplo9.py took 0.073 seconds
