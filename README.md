@@ -66,3 +66,4 @@ En el terminal de hive-server ejecutamos lo siguiente para crear las tablas.
 
 
 
+# prueba CI/CD

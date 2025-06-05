@@ -1,0 +1,21 @@
+[2025-06-04T01:30:13.763+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-04T01:30:13.784+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: consumer_dag_S5_ej2_2.consume_data_dag_S5_ej2_2 dataset_triggered__2025-06-04T01:30:12.687407+00:00 [queued]>
+[2025-06-04T01:30:13.793+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: consumer_dag_S5_ej2_2.consume_data_dag_S5_ej2_2 dataset_triggered__2025-06-04T01:30:12.687407+00:00 [queued]>
+[2025-06-04T01:30:13.794+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-06-04T01:30:13.810+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): consume_data_dag_S5_ej2_2> on 2025-06-04 01:30:12.687407+00:00
+[2025-06-04T01:30:13.826+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10441) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-04T01:30:13.830+0000] {standard_task_runner.py:72} INFO - Started process 10443 to run task
+[2025-06-04T01:30:13.827+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'consumer_dag_S5_ej2_2', 'consume_data_dag_S5_ej2_2', 'dataset_triggered__2025-06-04T01:30:12.687407+00:00', '--job-id', '287', '--raw', '--subdir', 'DAGS_FOLDER/Sesion5/Dataset_S5_3.py', '--cfg-path', '/tmp/tmpzq_jeb8o']
+[2025-06-04T01:30:13.832+0000] {standard_task_runner.py:105} INFO - Job 287: Subtask consume_data_dag_S5_ej2_2
+[2025-06-04T01:30:13.854+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-04T01:30:13.898+0000] {task_command.py:467} INFO - Running <TaskInstance: consumer_dag_S5_ej2_2.consume_data_dag_S5_ej2_2 dataset_triggered__2025-06-04T01:30:12.687407+00:00 [running]> on host 31d54648d280
+[2025-06-04T01:30:13.901+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-04T01:30:14.010+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='consumer_dag_S5_ej2_2' AIRFLOW_CTX_TASK_ID='consume_data_dag_S5_ej2_2' AIRFLOW_CTX_EXECUTION_DATE='2025-06-04T01:30:12.687407+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='dataset_triggered__2025-06-04T01:30:12.687407+00:00'
+[2025-06-04T01:30:14.013+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-04T01:30:14.030+0000] {logging_mixin.py:190} INFO - consumer_dag_S5_ej2_2 consumió el dataset producer_dag_S5_ej2
+[2025-06-04T01:30:14.030+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-04T01:30:14.042+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-04T01:30:14.042+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=consumer_dag_S5_ej2_2, task_id=consume_data_dag_S5_ej2_2, run_id=dataset_triggered__2025-06-04T01:30:12.687407+00:00, execution_date=20250604T013012, start_date=20250604T013013, end_date=20250604T013014
+[2025-06-04T01:30:14.090+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-04T01:30:14.145+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-04T01:30:14.150+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

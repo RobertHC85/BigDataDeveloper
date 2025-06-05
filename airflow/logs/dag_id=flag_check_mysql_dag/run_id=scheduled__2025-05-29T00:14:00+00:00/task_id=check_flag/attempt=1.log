@@ -1,0 +1,55 @@
+[2025-05-30T01:19:56.137+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-30T01:19:56.205+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flag_check_mysql_dag.check_flag scheduled__2025-05-29T00:14:00+00:00 [queued]>
+[2025-05-30T01:19:56.237+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flag_check_mysql_dag.check_flag scheduled__2025-05-29T00:14:00+00:00 [queued]>
+[2025-05-30T01:19:56.237+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-05-30T01:19:56.300+0000] {taskinstance.py:2888} INFO - Executing <Task(SqlSensor): check_flag> on 2025-05-29 00:14:00+00:00
+[2025-05-30T01:19:56.340+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=637) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-30T01:19:56.342+0000] {standard_task_runner.py:72} INFO - Started process 644 to run task
+[2025-05-30T01:19:56.335+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'flag_check_mysql_dag', 'check_flag', 'scheduled__2025-05-29T00:14:00+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/Sesion3/Ejemplo7.py', '--cfg-path', '/tmp/tmpoowcmscr']
+[2025-05-30T01:19:56.346+0000] {standard_task_runner.py:105} INFO - Job 56: Subtask check_flag
+[2025-05-30T01:19:56.372+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-30T01:19:56.483+0000] {task_command.py:467} INFO - Running <TaskInstance: flag_check_mysql_dag.check_flag scheduled__2025-05-29T00:14:00+00:00 [running]> on host 31d54648d280
+[2025-05-30T01:19:56.486+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-30T01:19:56.880+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flag_check_mysql_dag' AIRFLOW_CTX_TASK_ID='check_flag' AIRFLOW_CTX_EXECUTION_DATE='2025-05-29T00:14:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-29T00:14:00+00:00'
+[2025-05-30T01:19:56.881+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-30T01:19:57.002+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:19:57.006+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:19:57.017+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:19:57.031+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:19:57.032+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:20:27.045+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:20:27.046+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:20:27.053+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:20:27.058+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:20:27.059+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:20:57.071+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:20:57.071+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:20:57.076+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:20:57.078+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:20:57.078+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:21:27.084+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:21:27.085+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:21:27.090+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:21:27.092+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:21:27.092+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:21:57.100+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:21:57.100+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:21:57.109+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:21:57.115+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:21:57.116+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:22:27.121+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:22:27.122+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:22:27.127+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:22:27.129+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:22:27.129+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:22:57.163+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:22:57.173+0000] {sql.py:96} INFO - Poking: SELECT flag FROM my_table WHERE id = 1 (with parameters None)
+[2025-05-30T01:22:57.205+0000] {base.py:84} INFO - Retrieving connection 'my_db_connection_mysql'
+[2025-05-30T01:22:57.217+0000] {sql.py:509} INFO - Running statement: SELECT flag FROM my_table WHERE id = 1, parameters: None
+[2025-05-30T01:22:57.218+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-05-30T01:22:57.220+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2025-05-30T01:22:57.251+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-30T01:22:57.251+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=flag_check_mysql_dag, task_id=check_flag, run_id=scheduled__2025-05-29T00:14:00+00:00, execution_date=20250529T001400, start_date=20250530T011956, end_date=20250530T012257
+[2025-05-30T01:22:57.526+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-30T01:22:57.766+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-30T01:22:57.775+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,434 @@
+[2025-06-05T02:01:20.001+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:20.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:01:20.042+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:20.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:20.100+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:20.199+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:20.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:01:20.306+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:20.305+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:01:20.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.526 seconds
+[2025-06-05T02:01:53.197+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:53.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:01:53.201+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:53.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:53.213+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:01:53.286+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:53.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:01:53.380+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:01:53.380+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:01:53.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.296 seconds
+[2025-06-05T02:04:29.240+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:04:29.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:04:29.261+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:04:29.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:04:29.295+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:04:29.395+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:04:29.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:04:29.535+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:04:29.535+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:04:29.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.562 seconds
+[2025-06-05T02:05:00.060+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:00.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:05:00.066+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:00.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:00.073+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:00.110+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:00.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:05:00.145+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:00.145+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:05:00.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.121 seconds
+[2025-06-05T02:05:30.330+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:30.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:05:30.333+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:30.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:30.341+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:05:30.361+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:30.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:05:30.392+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:05:30.392+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:05:30.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:06:01.514+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:01.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:06:01.518+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:01.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:01.526+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:01.549+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:01.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:06:01.580+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:01.579+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:06:01.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.099 seconds
+[2025-06-05T02:06:32.714+0000] {processor.py:186} INFO - Started process (PID=658) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:32.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:06:32.718+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:32.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:32.726+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:06:32.749+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:32.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:06:32.777+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:06:32.776+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:06:32.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.096 seconds
+[2025-06-05T02:07:03.791+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:03.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:07:03.794+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:03.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:03.802+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:03.827+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:03.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:07:03.883+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:03.883+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:07:03.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.129 seconds
+[2025-06-05T02:07:34.985+0000] {processor.py:186} INFO - Started process (PID=888) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:34.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:07:34.989+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:34.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:34.996+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:07:35.018+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:35.017+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:07:35.048+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:07:35.048+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:07:35.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.096 seconds
+[2025-06-05T02:08:06.230+0000] {processor.py:186} INFO - Started process (PID=1005) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:06.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:08:06.236+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:06.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:06.250+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:06.301+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:06.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:08:06.372+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:06.372+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:08:06.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.202 seconds
+[2025-06-05T02:08:37.563+0000] {processor.py:186} INFO - Started process (PID=1118) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:37.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:08:37.571+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:37.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:37.582+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:08:37.603+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:37.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:08:37.632+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:08:37.632+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:08:37.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.102 seconds
+[2025-06-05T02:09:08.601+0000] {processor.py:186} INFO - Started process (PID=1239) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:08.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:09:08.605+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:08.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:08.613+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:08.635+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:08.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:09:08.664+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:08.664+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:09:08.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.098 seconds
+[2025-06-05T02:09:39.908+0000] {processor.py:186} INFO - Started process (PID=1354) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:39.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:09:39.917+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:39.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:39.928+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:09:39.955+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:39.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:09:39.985+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:09:39.985+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:09:40.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.119 seconds
+[2025-06-05T02:10:10.984+0000] {processor.py:186} INFO - Started process (PID=1469) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:10.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:10:10.987+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:10.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:10.995+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:11.018+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:11.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:10:11.049+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:11.049+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:10:11.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.101 seconds
+[2025-06-05T02:10:41.983+0000] {processor.py:186} INFO - Started process (PID=1583) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:41.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:10:41.987+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:41.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:41.994+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:10:42.016+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:42.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:10:42.047+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:10:42.047+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:10:42.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.099 seconds
+[2025-06-05T02:11:13.346+0000] {processor.py:186} INFO - Started process (PID=1695) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:13.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:11:13.349+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:13.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:13.354+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:13.373+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:13.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:11:13.399+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:13.399+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:11:13.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.077 seconds
+[2025-06-05T02:11:44.393+0000] {processor.py:186} INFO - Started process (PID=1810) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:44.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:11:44.396+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:44.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:44.402+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:11:44.418+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:44.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:11:44.438+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:11:44.438+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:11:44.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.068 seconds
+[2025-06-05T02:12:15.353+0000] {processor.py:186} INFO - Started process (PID=1928) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:15.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:12:15.356+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:15.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:15.364+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:15.386+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:15.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:12:15.418+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:15.417+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:12:15.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.100 seconds
+[2025-06-05T02:12:46.532+0000] {processor.py:186} INFO - Started process (PID=2039) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:46.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:12:46.537+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:46.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:46.553+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:12:46.590+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:46.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:12:46.620+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:12:46.620+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:12:46.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.145 seconds
+[2025-06-05T02:13:17.793+0000] {processor.py:186} INFO - Started process (PID=2155) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:17.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:13:17.796+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:17.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:17.803+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:17.824+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:17.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:13:17.852+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:17.852+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:13:17.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:13:48.864+0000] {processor.py:186} INFO - Started process (PID=2268) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:48.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:13:48.867+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:48.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:48.875+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:13:48.896+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:48.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:13:48.926+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:13:48.925+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:13:48.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:14:20.094+0000] {processor.py:186} INFO - Started process (PID=2383) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:20.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:14:20.097+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:20.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:20.105+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:20.126+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:20.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:14:20.156+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:20.156+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:14:20.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:14:51.299+0000] {processor.py:186} INFO - Started process (PID=2498) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:51.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:14:51.302+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:51.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:51.310+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:14:51.372+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:51.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:14:51.406+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:14:51.406+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:14:51.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.144 seconds
+[2025-06-05T02:15:22.657+0000] {processor.py:186} INFO - Started process (PID=2615) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:22.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:15:22.660+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:22.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:22.667+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:22.698+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:22.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:15:22.728+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:22.727+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:15:22.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.105 seconds
+[2025-06-05T02:15:53.675+0000] {processor.py:186} INFO - Started process (PID=2728) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:53.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:15:53.678+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:53.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:53.686+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:15:53.707+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:53.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:15:53.737+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:15:53.736+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:15:53.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:16:24.910+0000] {processor.py:186} INFO - Started process (PID=2845) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:24.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:16:24.913+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:24.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:24.921+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:24.941+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:24.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:16:24.971+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:24.971+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:16:24.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.093 seconds
+[2025-06-05T02:16:56.280+0000] {processor.py:186} INFO - Started process (PID=2958) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:56.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:16:56.283+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:56.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:56.290+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:16:56.335+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:56.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:16:56.391+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:16:56.391+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:16:56.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.162 seconds
+[2025-06-05T02:17:27.887+0000] {processor.py:186} INFO - Started process (PID=3073) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:27.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:17:27.889+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:27.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:27.896+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:27.916+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:27.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:17:27.946+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:27.945+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:17:27.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.093 seconds
+[2025-06-05T02:17:58.932+0000] {processor.py:186} INFO - Started process (PID=3188) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:58.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:17:58.936+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:58.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:58.943+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:17:58.966+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:58.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:17:58.996+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:17:58.996+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:17:59.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.097 seconds
+[2025-06-05T02:18:30.144+0000] {processor.py:186} INFO - Started process (PID=3303) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:18:30.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:18:30.147+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:18:30.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:18:30.154+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:18:30.177+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:18:30.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:18:30.231+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:18:30.230+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:18:30.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.147 seconds
+[2025-06-05T02:19:01.464+0000] {processor.py:186} INFO - Started process (PID=3418) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:01.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:19:01.471+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:01.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:01.487+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:01.509+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:01.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:19:01.537+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:01.537+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:19:01.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.115 seconds
+[2025-06-05T02:19:32.855+0000] {processor.py:186} INFO - Started process (PID=3533) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:32.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:19:32.859+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:32.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:32.868+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:19:32.889+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:32.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:19:32.916+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:19:32.916+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:19:33.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.319 seconds
+[2025-06-05T02:20:03.576+0000] {processor.py:186} INFO - Started process (PID=3648) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:03.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:20:03.580+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:03.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:03.588+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:03.609+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:03.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:20:03.639+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:03.639+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:20:03.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.112 seconds
+[2025-06-05T02:20:34.810+0000] {processor.py:186} INFO - Started process (PID=3763) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:34.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:20:34.814+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:34.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:34.830+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:20:34.863+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:34.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:20:34.891+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:20:34.891+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:20:34.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.114 seconds
+[2025-06-05T02:21:06.093+0000] {processor.py:186} INFO - Started process (PID=3880) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:06.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:21:06.096+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:06.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:06.103+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:06.123+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:06.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:21:06.153+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:06.153+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:21:06.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.094 seconds
+[2025-06-05T02:21:37.452+0000] {processor.py:186} INFO - Started process (PID=3993) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:37.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:21:37.456+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:37.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:37.464+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:21:37.486+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:37.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:21:37.517+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:21:37.517+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:21:37.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.332 seconds
+[2025-06-05T02:22:08.960+0000] {processor.py:186} INFO - Started process (PID=4110) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:08.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:22:08.963+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:08.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:08.968+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:08.984+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:08.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:22:09.013+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:09.013+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:22:09.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.076 seconds
+[2025-06-05T02:22:40.354+0000] {processor.py:186} INFO - Started process (PID=4225) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:40.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:22:40.357+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:40.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:40.362+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:22:40.378+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:40.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:22:40.398+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:22:40.398+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:22:40.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.068 seconds
+[2025-06-05T02:23:11.427+0000] {processor.py:186} INFO - Started process (PID=4338) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:11.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:23:11.431+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:11.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:11.438+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:11.459+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:11.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:23:11.489+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:11.489+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:23:11.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.105 seconds
+[2025-06-05T02:23:42.839+0000] {processor.py:186} INFO - Started process (PID=4453) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:42.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:23:42.842+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:42.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:42.850+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:23:42.871+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:42.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:23:42.899+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:23:42.898+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:23:43.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.249 seconds
+[2025-06-05T02:24:14.065+0000] {processor.py:186} INFO - Started process (PID=4568) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:14.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:24:14.069+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:14.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:14.077+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:14.098+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:14.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:24:14.129+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:14.129+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:24:14.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.096 seconds
+[2025-06-05T02:24:45.529+0000] {processor.py:186} INFO - Started process (PID=4685) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:45.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:24:45.532+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:45.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:45.548+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:24:45.584+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:45.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:24:45.619+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:24:45.619+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:24:45.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.151 seconds
+[2025-06-05T02:25:16.970+0000] {processor.py:186} INFO - Started process (PID=4818) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:16.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:25:16.974+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:16.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:16.982+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:17.006+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:17.006+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:25:17.037+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:17.037+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:25:17.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.101 seconds
+[2025-06-05T02:25:48.714+0000] {processor.py:186} INFO - Started process (PID=4934) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:48.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:25:48.717+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:48.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:48.725+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:25:48.747+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:48.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:25:48.799+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:25:48.799+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:25:48.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.284 seconds
+[2025-06-05T02:26:20.044+0000] {processor.py:186} INFO - Started process (PID=5048) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:20.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:26:20.053+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:20.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:20.062+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:20.085+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:20.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:26:20.300+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:20.300+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:26:20.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.297 seconds
+[2025-06-05T02:26:50.787+0000] {processor.py:186} INFO - Started process (PID=5160) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:50.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:26:50.790+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:50.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:50.797+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:26:50.823+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:50.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:26:50.851+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:26:50.851+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:26:50.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.097 seconds
+[2025-06-05T02:27:21.976+0000] {processor.py:186} INFO - Started process (PID=5273) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:21.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:27:21.979+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:21.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:21.987+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:22.009+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:22.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:27:22.039+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:22.038+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:27:22.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.095 seconds
+[2025-06-05T02:27:53.380+0000] {processor.py:186} INFO - Started process (PID=5388) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:53.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:27:53.383+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:53.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:53.391+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:27:53.413+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:53.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:27:53.443+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:27:53.443+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:27:53.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.271 seconds
+[2025-06-05T02:28:25.209+0000] {processor.py:186} INFO - Started process (PID=5505) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:25.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:28:25.212+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:25.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:25.220+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:25.241+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:25.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:28:25.461+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:25.461+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:28:25.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.281 seconds
+[2025-06-05T02:28:56.455+0000] {processor.py:186} INFO - Started process (PID=5623) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:56.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:28:56.460+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:56.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:56.476+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:28:56.526+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:56.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:28:56.584+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:28:56.584+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:28:56.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.163 seconds
+[2025-06-05T02:29:27.831+0000] {processor.py:186} INFO - Started process (PID=5735) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:27.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:29:27.834+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:27.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:27.842+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:27.863+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:27.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:29:27.892+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:27.891+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:29:27.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.108 seconds
+[2025-06-05T02:29:59.266+0000] {processor.py:186} INFO - Started process (PID=5848) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:59.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:29:59.269+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:59.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:59.276+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:29:59.298+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:59.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:29:59.325+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:29:59.325+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:29:59.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.277 seconds
+[2025-06-05T02:30:30.186+0000] {processor.py:186} INFO - Started process (PID=5963) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:30:30.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:30:30.190+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:30:30.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:30:30.197+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:30:30.220+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:30:30.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:30:30.418+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:30:30.418+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:30:30.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.281 seconds
+[2025-06-05T02:31:00.864+0000] {processor.py:186} INFO - Started process (PID=6078) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:00.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:31:00.868+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:00.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:00.876+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:00.898+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:00.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:31:00.935+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:00.935+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:31:00.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.113 seconds
+[2025-06-05T02:31:32.078+0000] {processor.py:186} INFO - Started process (PID=6193) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:32.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:31:32.081+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:32.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:32.088+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:31:32.109+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:32.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:31:32.139+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:31:32.139+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:31:32.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.094 seconds
+[2025-06-05T02:32:03.231+0000] {processor.py:186} INFO - Started process (PID=6308) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:03.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:32:03.234+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:03.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:03.242+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:03.263+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:03.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:32:03.291+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:03.291+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:32:03.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.318 seconds
+[2025-06-05T02:32:34.367+0000] {processor.py:186} INFO - Started process (PID=6423) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:34.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:32:34.371+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:34.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:34.380+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:32:34.422+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:34.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:32:34.678+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:32:34.678+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:32:34.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.344 seconds
+[2025-06-05T02:33:05.152+0000] {processor.py:186} INFO - Started process (PID=6538) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:05.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:33:05.156+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:05.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:05.164+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:05.402+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:05.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:33:05.431+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:05.430+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:33:05.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.309 seconds
+[2025-06-05T02:33:36.385+0000] {processor.py:186} INFO - Started process (PID=6653) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:36.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:33:36.388+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:36.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:36.397+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:33:36.420+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:36.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:33:36.450+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:33:36.449+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:33:36.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.100 seconds
+[2025-06-05T02:34:07.191+0000] {processor.py:186} INFO - Started process (PID=6768) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:34:07.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T02:34:07.201+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:34:07.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:34:07.210+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T02:34:07.250+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:34:07.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T02:34:07.281+0000] {logging_mixin.py:190} INFO - [2025-06-05T02:34:07.281+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T02:34:07.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.131 seconds
+[2025-06-05T05:21:08.109+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:08.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T05:21:08.125+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:08.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:08.149+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:08.230+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:08.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:21:08.365+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:08.365+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T05:21:08.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.442 seconds
+[2025-06-05T05:21:39.508+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:39.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Sesion5/Dataset_S5_2.py for tasks to queue
+[2025-06-05T05:21:39.512+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:39.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:39.521+0000] {processor.py:925} INFO - DAG(s) 'consumer_dag_S5_ej2_1' retrieved from /opt/airflow/dags/Sesion5/Dataset_S5_2.py
+[2025-06-05T05:21:39.543+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:39.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-05T05:21:39.572+0000] {logging_mixin.py:190} INFO - [2025-06-05T05:21:39.572+0000] {dag.py:4180} INFO - Setting next_dagrun for consumer_dag_S5_ej2_1 to None, run_after=None
+[2025-06-05T05:21:39.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Sesion5/Dataset_S5_2.py took 0.101 seconds

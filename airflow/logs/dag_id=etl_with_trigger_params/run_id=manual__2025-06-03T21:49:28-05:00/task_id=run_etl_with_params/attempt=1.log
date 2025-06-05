@@ -1,0 +1,25 @@
+[2025-06-04T02:51:03.973+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-04T02:51:03.985+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_with_trigger_params.run_etl_with_params manual__2025-06-03T21:49:28-05:00 [queued]>
+[2025-06-04T02:51:03.991+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_with_trigger_params.run_etl_with_params manual__2025-06-03T21:49:28-05:00 [queued]>
+[2025-06-04T02:51:03.991+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-06-04T02:51:04.001+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_etl_with_params> on 2025-06-04 02:49:28+00:00
+[2025-06-04T02:51:04.010+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=24332) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-04T02:51:04.010+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_with_trigger_params', 'run_etl_with_params', 'manual__2025-06-03T21:49:28-05:00', '--job-id', '304', '--raw', '--subdir', 'DAGS_FOLDER/Sesion5/DAG_Parametros.py', '--cfg-path', '/tmp/tmpuhjyqcvb']
+[2025-06-04T02:51:04.012+0000] {standard_task_runner.py:105} INFO - Job 304: Subtask run_etl_with_params
+[2025-06-04T02:51:04.013+0000] {standard_task_runner.py:72} INFO - Started process 24334 to run task
+[2025-06-04T02:51:04.025+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-04T02:51:04.051+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_with_trigger_params.run_etl_with_params manual__2025-06-03T21:49:28-05:00 [running]> on host 31d54648d280
+[2025-06-04T02:51:04.116+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_with_trigger_params' AIRFLOW_CTX_TASK_ID='run_etl_with_params' AIRFLOW_CTX_EXECUTION_DATE='2025-06-04T02:49:28+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-03T21:49:28-05:00'
+[2025-06-04T02:51:04.117+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-04T02:51:04.163+0000] {logging_mixin.py:190} INFO -    2024-03-12 10:00:00  sensor1  20.5
+0  2024-03-12 10:05:00  sensor2  18.3
+1  2024-03-12 10:10:00  sensor1  22.1
+2  2024-03-12 10:15:00  sensor2  17.9
+3  2024-03-12 10:20:00  sensor1  21.8
+4  2024-03-12 10:25:00  sensor2  19.7
+[2025-06-04T02:51:04.164+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-04T02:51:04.171+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-04T02:51:04.171+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_with_trigger_params, task_id=run_etl_with_params, run_id=manual__2025-06-03T21:49:28-05:00, execution_date=20250604T024928, start_date=20250604T025103, end_date=20250604T025104
+[2025-06-04T02:51:04.191+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-04T02:51:04.203+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-04T02:51:04.204+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

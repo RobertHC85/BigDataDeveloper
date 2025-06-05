@@ -1,0 +1,23 @@
+[2025-05-28T02:33:53.269+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-28T02:33:53.401+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bash_dag.print_hello scheduled__2025-05-26T00:00:00+00:00 [queued]>
+[2025-05-28T02:33:53.451+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bash_dag.print_hello scheduled__2025-05-26T00:00:00+00:00 [queued]>
+[2025-05-28T02:33:53.451+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-05-28T02:33:53.480+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): print_hello> on 2025-05-26 00:00:00+00:00
+[2025-05-28T02:33:53.497+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1566) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-28T02:33:53.496+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'bash_dag', 'print_hello', 'scheduled__2025-05-26T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/Sesion2/Ejemplo3.py', '--cfg-path', '/tmp/tmpojc1vg4o']
+[2025-05-28T02:33:53.498+0000] {standard_task_runner.py:72} INFO - Started process 1594 to run task
+[2025-05-28T02:33:53.499+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask print_hello
+[2025-05-28T02:33:53.518+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-28T02:33:53.734+0000] {task_command.py:467} INFO - Running <TaskInstance: bash_dag.print_hello scheduled__2025-05-26T00:00:00+00:00 [running]> on host 31d54648d280
+[2025-05-28T02:33:53.744+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-05-28T02:33:54.136+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bash_dag' AIRFLOW_CTX_TASK_ID='print_hello' AIRFLOW_CTX_EXECUTION_DATE='2025-05-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-26T00:00:00+00:00'
+[2025-05-28T02:33:54.137+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-28T02:33:54.210+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-28T02:33:54.213+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Hello World!"']
+[2025-05-28T02:33:54.257+0000] {subprocess.py:86} INFO - Output:
+[2025-05-28T02:33:54.266+0000] {subprocess.py:93} INFO - Hello World!
+[2025-05-28T02:33:54.280+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-28T02:33:54.493+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-28T02:33:54.493+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=bash_dag, task_id=print_hello, run_id=scheduled__2025-05-26T00:00:00+00:00, execution_date=20250526T000000, start_date=20250528T023353, end_date=20250528T023354
+[2025-05-28T02:33:54.627+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-28T02:33:54.679+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
