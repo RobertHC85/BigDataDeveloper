@@ -230,6 +230,8 @@ services:
     networks:
       net_pet:
         ipv4_address: 172.27.1.17
+        aliases:
+          - airflow-postgres
 
   airflow-webserver:
     build:
