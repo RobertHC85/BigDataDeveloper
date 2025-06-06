@@ -39,10 +39,11 @@ jobs:
 
       - name: Asignar permisos a reload_dags.sh
         run: chmod +x reload_dags.sh
-        
-      - name: Validar DAGs de Airflow
+
+      - name: Validar sintaxis de DAGs
         run: |
-          docker exec bigdatadeveloper-airflow-webserver-1 bash -c "airflow dags list"
+          echo "Validando sintaxis Python de los DAGs..."
+          python3 -m compileall airflow/dags
 
       - name: Recargar DAGs en Codespace
         run: ./reload_dags.sh
