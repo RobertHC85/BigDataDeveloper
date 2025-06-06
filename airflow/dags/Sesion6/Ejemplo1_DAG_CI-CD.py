@@ -9,7 +9,7 @@ with DAG(
     start_date=datetime(2025, 1, 1),
     schedule_interval="@daily",
     catchup=False,
-    description=DAG de prueba para validar CI/CD en Codespace",
+    description="DAG de prueba para validar CI/CD en Codespace",
     tags=["ci_cd", "prueba"],
 ) as dag:
 
