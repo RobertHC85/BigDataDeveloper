@@ -1,3 +1,5 @@
+#Ejemplo2 de CI/CD
+#Nueva configuración del yml en GitHub
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime
