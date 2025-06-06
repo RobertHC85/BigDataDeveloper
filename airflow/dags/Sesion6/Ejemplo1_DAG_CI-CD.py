@@ -5,7 +5,7 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime
 
 with DAG(
-    dag_id=DAG_ci_cd_prueba",
+    dag_id="DAG_ci_cd_prueba",
     start_date=datetime(2025, 1, 1),
     schedule_interval=@daily",
     catchup=False,
