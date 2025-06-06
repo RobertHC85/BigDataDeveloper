@@ -1,3 +1,24 @@
+#name: Sync DAGs to Airflow in Codespace
+
+#on:
+#  push:
+#    paths:
+#      - 'airflow/dags/**'
+#      - 'reload_dags.sh'
+#    branches:
+#      - main
+
+#jobs:
+#  reload-dags:
+#    runs-on: ubuntu-latest
+
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v3
+
+#      - name: Recargar DAGs dentro de Codespace
+#        run: bash reload_dags.sh
+
 name: Sync DAGs to Airflow in Codespace
 
 on:
@@ -13,8 +34,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repositorio
         uses: actions/checkout@v3
 
-      - name: Recargar DAGs dentro de Codespace
-        run: bash reload_dags.sh
+      - name: Asignar permisos a reload_dags.sh
+        run: chmod +x reload_dags.sh
+
+      - name: Recargar DAGs en Codespace
+        run: ./reload_dags.sh
+
+      - name: Verificar estado del scheduler
+        run: docker ps | grep airflow-scheduler || echo "Scheduler no encontrado"
+
+      - name: Verificar logs recientes de Airflow
+        run: |
+          docker logs --tail 20 bigdatadeveloper-airflow-scheduler-1 || echo "No se pudieron leer los logs del scheduler"
