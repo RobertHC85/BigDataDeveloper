@@ -1,3 +1,5 @@
+#Test de cambios mediante CI/CD
+#Ejemplo1
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.datasets import Dataset
@@ -14,7 +16,7 @@ def producir_dataset():
 # DAG que produce el dataset
 with DAG(
     dag_id='producer_dag_s5',
-    start_date=datetime(2025, 6, 3),
+    start_date=datetime(2025, 6, 5),
     schedule_interval='@daily',
     catchup=False,
 ) as dag1:
