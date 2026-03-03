@@ -1,0 +1,85 @@
+Creo topics:
+-----------
+docker exec -it kafka-1 bash -lc "kafka-topics --bootstrap-server kafka-1:29092 --create --topic demo-topic-sesion4 --partitions 3 --replication-factor 1"
+docker exec -it kafka-1 bash -lc "kafka-topics --bootstrap-server kafka-1:29092 --describe --topic demo-topic-sesion4"
+
+Listo topics:
+------------
+kafka-topics --bootstrap-server kafka-1:29092 --list
+
+creamos un productor:
+--------------------
+docker exec -it kafka-1 bash -lc "kafka-console-producer --bootstrap-server kafka-1:29092 --topic demo-topic-sesion4"
+
+creamos un consumidor:
+---------------------
+docker exec -it kafka-1 bash -lc "kafka-console-consumer --bootstrap-server kafka-1:29092 --topic demo-topic-sesion4 --from-beginning"
+
+keys:
+----
+docker exec -it kafka-1 bash -lc "kafka-console-producer --bootstrap-server kafka-1:29092 --topic demo-topic-sesion4 --property parse.key=true --property key.separator=:"
+
+user1:login
+user2:login
+user1:click
+user2:click
+user1:checkout
+
+consumidor con offset:
+docker exec -it kafka-1 bash -lc "kafka-console-consumer --bootstrap-server kafka-1:29092 --topic demo-topic-sesion4 --from-beginning --property print.offset=true --property print.partition=true --property print.key=true"
+
+Crea un topic con 6 particiones:
+-------------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-topics --bootstrap-server kafka-1:29092 --create --topic orders --partitions 6 --replication-factor 1"
+
+consumer en el grupo cg-orders (Terminal A):
+-------------------------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-console-consumer --bootstrap-server kafka-1:29092 --topic orders --group cg-orders --property print.key=true --property print.partition=true"
+
+2do consumer en el mismo grupo (Terminal B):
+-------------------------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-console-consumer --bootstrap-server kafka-1:29092 --topic orders --group cg-orders --property print.key=true --property print.partition=true"
+
+Lanza un 3er consumer (Terminal C):
+----------------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-console-consumer --bootstrap-server kafka-1:29092 --topic orders --group cg-orders --property print.key=true --property print.partition=true"
+
+Produce con key por cliente (Terminal D):
+----------------------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-console-producer --bootstrap-server kafka-1:29092 --topic orders --property parse.key=true --property key.separator=:"
+
+cust1:order-1001
+cust2:order-1002
+cust3:order-1003
+cust1:order-1004
+cust2:order-1005
+cust10:x
+cust20:x
+cust30:x
+cust40:x
+cust50:x
+cust60:x
+cust70:x
+cust80:x
+cust90:x
+cust100:x
+cust10000:x
+cust200:x
+cust300:x
+cust400:x
+cust500:x
+cust600:x
+cust700:x
+cust800:x
+cust900:x
+cust1000:x
+
+Ver estados de los grupos:
+-------------------------
+docker exec -it kafka-1 bash -lc \
+"kafka-consumer-groups --bootstrap-server kafka-1:29092 --describe --group cg-orders"
